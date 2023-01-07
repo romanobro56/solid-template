@@ -1,4 +1,4 @@
-**Solid-TS-App**
+**Solid-TS-App**<br>
 *this includes a home page and example component, with routing and nav built-in. Credit goes to ebenezerdon, this mostly came from a tutorial of his*
  1. clone this repo
  2. run "pnpm i"
