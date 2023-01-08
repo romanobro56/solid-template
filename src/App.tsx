@@ -2,15 +2,13 @@ import type { Component } from 'solid-js';
 import { Route, Routes } from 'solid-app-router';
 import Home from './pages/Home';
 import Nav from './components/Nav';
-import Romanocraft from './pages/Romanocraft';
 
 const App: Component = () => {
   return (
-    <div class='container'>
+    <div class="container">
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/romanocraft' element={<Romanocraft />} />
       </Routes>
     </div>
   );
